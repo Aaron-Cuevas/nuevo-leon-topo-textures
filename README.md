@@ -45,8 +45,4 @@ La alpha recorta exactamente el estado.
 - **Hillshade** via pendiente y aspecto (iluminación lambertiana).
 - **Normal map** vía gradiente \(\nabla z\) y normalización \(( -\partial_x z, -\partial_y z, 1)\).
 
-## Problemas comunes
 
-- Si tu firewall bloquea las URLs, descarga los tiles previamente.
-- Para texturas 8k–16k, sube `--zoom` y recorta luego en tu DCC.
-- Si Blender se ve lavado, marca `Non-Color` en mapas que no son albedo.
