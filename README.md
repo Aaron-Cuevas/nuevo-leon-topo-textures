@@ -32,7 +32,7 @@ Los datos se descargan automáticamente de:
 
 ## Blender (nodos)
 
-- **Hillshade**: `Image Texture (sRGB)` → `Color` → `Base Color` o `Multiply` encima de tu albedo.
+- **Hillshade**: `Image Texture (sRGB)` → `Color` → `Base Color` o `Multiply` encima de albedo.
 - **Bump/Height**: `Image Texture (Non-Color)` → `Bump` → `Normal` del Principled BSDF.
 - **Normal Map**: `Image Texture (Non-Color)` → `Normal Map` → `Normal` del Principled BSDF.
   - Asegúrate de que el `Normal Map` está en **Tangent Space** y la imagen en Non-Color.
